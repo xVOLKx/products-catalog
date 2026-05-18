@@ -1,14 +1,30 @@
-# 📦 Каталог товаров (Express + SQLite)
+# Каталог товаров (Express + SQLite)
 
-Мини-приложение для добавления, просмотра, редактирования и удаления товаров.
+Веб-приложение для управления товарами: добавление, просмотр, редактирование, удаление (CRUD). Данные хранятся в SQLite.
 
-## 🚀 Как запустить
+## Как запустить
 
-1. Установи Node.js
-2. Скачай репозиторий
-3. В папке проекта выполни: npm install express sqlite3
-4. Запусти: node products-sql.js
-5. Открой в браузере: http://localhost:3000
+1. Установи [Node.js](https://nodejs.org/)
+2. Склонируй репозиторий:
+   ```bash
+   git clone https://github.com/xVOLKx/products-catalog.git
+   ```
+3. Перейди в папку проекта:
+   ```bash
+   cd products-catalog
+   ```
+4. Установи зависимости:
+   ```bash
+   npm install express sqlite3
+   ```
+5. Запусти:
+   ```bash
+   node products-sql.js
+   ``` 
+6. Открой в браузере:
+   ```bash
+     http://localhost:3000
+   ```
 
 ## 🖼️ Скриншоты
 
